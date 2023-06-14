@@ -1,0 +1,45 @@
+
+.hero {
+    background-image: url("../images//pattern-bg-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36.25vh;
+    min-height: 280px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4vh;
+
+    &__title{
+        padding-bottom: 4.4vh;
+        color: var(--color-primary);
+        width: max-content;
+        margin: 0 auto;
+    }
+    &__content{
+        width: 100%;
+        position: relative;
+    }
+}
+
+
+@media screen and (width>=768px) {
+    .hero{
+        background-image: url("../images//pattern-bg-desktop.png");
+        height: 38vh;
+        padding-top: 4.3vh;
+
+        &__title{
+            padding-bottom: 4.2vh;
+            font-size: 1.675rem;
+        }
+    }
+}
+
+@media screen and (width>=1440px) {
+    .hero{
+        height: 35vh;     
+    }
+}

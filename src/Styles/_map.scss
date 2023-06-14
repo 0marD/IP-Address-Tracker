@@ -1,0 +1,13 @@
+.map-section {
+    height: 63.75vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-thirdy);
+}
+
+@media screen and (width>=768px) {
+    .map-section {
+        min-height: 32.5rem;
+        height: 65vh;
+    }
+}

@@ -1,0 +1,23 @@
+@mixin light-theme{
+    --color-primary: hsl(0, 0%, 100%);
+    --color-secundary: hsl(0, 0%, 0%);
+    --color-secundary-hover: hsl(0, 0%, 15%);
+    --color-thirdy: hsl(0, 0%, 59%);
+    --color-fourty: hsl(283, 39%, 53%);
+    --color-fifty: hsl(203, 92%, 75%);
+    --color-sixty: hsl(178, 56%, 59%);
+}
+
+@mixin modal {
+    background-color: var(--color-primary);
+    width: 87.2vw;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow:0 0 5px 2px hsl(0, 100%, 0%,.15);
+    padding: 1.75rem;
+    text-align: center;
+    position:relative;
+    z-index:5;
+  max-width: 555px;
+}

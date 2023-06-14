@@ -1,0 +1,7 @@
+.error-modal{
+    @include modal;
+    font-style: italic;
+    font-weight: 400;
+    box-shadow: 0 0 5px 2px hsl(0, 100%, 50%,.2);
+    color: red;
+}
