@@ -7,7 +7,6 @@ const rubik = Rubik({ subsets: ["latin"] });
 export const metadata = {
   title: "IP Address Tracker",
   description: "IP Address tracker a frontend challenge from Frontendmentor",
-  // keywords: 'Omar Díaz Hernández,  Frontendmentor,  Frontend mentor, IP Address tracker, Next.js, Nextjs',
 };
 
 export default function RootLayout({

@@ -20,11 +20,17 @@ button {
 body {
   font-weight: 300;
   @include light-theme;
+  background: rgb(75, 78, 173);
+  background: linear-gradient(
+    25deg,
+    rgba(75, 78, 173, 1) 0%,
+    rgba(81, 96, 196, 1) 45%,
+    rgba(89, 119, 223, 1) 100%
+  );
 }
-main{
+
+main {
   display: block;
   min-height: 100vh;
   height: max-content;
-  background: rgb(75,78,173);
-background: linear-gradient(25deg, rgba(75,78,173,1) 0%, rgba(81,96,196,1) 45%, rgba(89,119,223,1) 100%);
 }
