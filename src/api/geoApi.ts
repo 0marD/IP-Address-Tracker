@@ -2,7 +2,7 @@ import { GeoResponse } from "@/interfaces/GeoResponse";
 import axios from "axios";
 
 export const getGeolocation = async (ip: string = ''): Promise<GeoResponse> => {
-  const apiKey = process.env.apiKey;
+  const apiKey = process.env.NEXT_PUBLIC_apiKeyGeolocation;
   const url = `https://geo.ipify.org/api/v1?apiKey=${apiKey}&ipAddress=${ip}`;
 
   try {

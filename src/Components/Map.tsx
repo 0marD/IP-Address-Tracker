@@ -1,3 +1,4 @@
+"use client"
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 interface Props {
@@ -9,7 +10,6 @@ const Map = ({ lat, lng }: Props): JSX.Element => {
   const mapContainerStyle = {
     width: "100%",
     height: "100%",
-    // position:'relative',
   };
 
   const containerStyle = {
@@ -30,7 +30,7 @@ const Map = ({ lat, lng }: Props): JSX.Element => {
     lng: lng,
   };
 
-  const apiKey = process.env.apiKeyGoogleMaps;
+  const apiKey = process.env.NEXT_PUBLIC_apiKeyGoogleMaps;
 
   return (
     <section className="map-section">
