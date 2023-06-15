@@ -1,11 +1,6 @@
-"use client";
-import React from "react";
+import { basicsProps } from "@/interfaces/basicsProps";
 
-interface Props {
-  children: React.ReactNode
-}
-
-const Hero = ({ children }: Props): JSX.Element => {
+const Hero = ({ children }: basicsProps): JSX.Element => {
 
   return (
     <section className="hero">

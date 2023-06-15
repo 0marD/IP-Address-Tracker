@@ -21,7 +21,7 @@
     &__text {
         font-size: inherit;
         opacity: .7;
-        color: var(--color-secundary);
+        color: var(--color-primary);
     }
 
     &__link {
@@ -30,7 +30,7 @@
         transition: opacity .3s;
         font-weight: 500;
         text-decoration: none;
-        color: var(--color-secundary);
+        color: var(--color-primary);
 
         &:hover {
             opacity: 1;
