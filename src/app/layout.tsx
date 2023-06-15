@@ -1,5 +1,5 @@
 import { Rubik } from "next/font/google";
-import "../Styles/index.scss";
+import "../sass/index.scss";
 import { Footer } from "@/Components/Footer";
 
 const rubik = Rubik({ subsets: ["latin"] });
